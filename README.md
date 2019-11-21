@@ -8,7 +8,15 @@ Currently JPG and PNG are supported.
 - JPEG images will come out with 250kb or less.
 - Pictures with a width bigger than 1400px will be resized to a width of 1400px and a height according to the ratio
 
+
+## How to use
+
+Download the script and execute it inside the root of your hugo website from the commandline.
+
+You might have to make it executable with `chmod +x hugo_optimized`.
+
 ## Dependecies
+- Linux, BSD or MacOS
 - hugo
 - perl-image-exiftool
 - jpegoptim
