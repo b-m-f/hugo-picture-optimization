@@ -1,6 +1,7 @@
 # Hugo picture optimization
 
-This tool will first build you website using Hugo and then aplly a few optimizations to the pictures that were copied to the output folder. The **original images will NOT be changed**.
+This tool will first build you website using Hugo and then apply a few optimizations to the pictures that were copied to the output folder. The **original images will NOT be changed**.
+
 
 Currently JPG and PNG are supported.
 
