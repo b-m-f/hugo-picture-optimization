@@ -1,6 +1,6 @@
 # Hugo picture optimization
 
-This tool will first build you website using hugo and then aplly a few optimizations to the pictures that were copied to the output folder. The **original images will NOT be changed**.
+This tool will first build you website using Hugo and then aplly a few optimizations to the pictures that were copied to the output folder. The **original images will NOT be changed**.
 
 Currently JPG and PNG are supported.
 
@@ -11,7 +11,7 @@ Currently JPG and PNG are supported.
 
 ## How to use
 
-Download the script and execute it inside the root of your hugo website from the commandline.
+Download the script and execute it inside the root of your Hugo repository from the commandline.
 
 You might have to make it executable with `chmod +x hugo_optimized`.
 
