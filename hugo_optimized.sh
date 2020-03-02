@@ -6,7 +6,7 @@ hugo
 
 if hash exiftool 2>/dev/null; then
 	# remove exif data on all images in new_images
-	exiftool --all= static/new_images*
+	exiftool --all= public/images*
 else
 	echo "Install perl-image-exiftool to optimize images"
 fi
