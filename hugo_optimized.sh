@@ -25,7 +25,7 @@ fi
 if hash optipng 2>/dev/null; then
 	for image in $(find public/images -regextype posix-extended -iregex ".*\.(png)"); do
 		# resize to width 1400 only if bigger than that
-		mogrify -resize '1400>'
+		mogrify -resize '1400>' $image
 		# optimize PNG with a give level (higher = slower) and remove all metadata
 		optipng -clobber -strip all -o $PNG_OPTIMIZATION_LEVEL $image
 	done;
