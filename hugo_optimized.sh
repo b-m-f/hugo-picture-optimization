@@ -51,7 +51,7 @@ export -f optimize_png
 optimize_gif() {
   local image=$1
   resize_image "$image"
-  gifsicle --batch --optimize=3 --resize-fit "${MAX_WIDTH}x" "$image"
+  gifsicle --batch --optimize=3 --colors 256 "$image" &
 }
 
 export -f optimize_gif
