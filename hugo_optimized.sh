@@ -1,9 +1,9 @@
 #!/bin/bash
 
-MAXIMUM_JPG_SIZE=250
-PNG_OPTIMIZATION_LEVEL=2
-MAX_WIDTH=1400
-NUM_PARALLEL_JOBS=8 # Number of parallel jobs for processing
+export MAXIMUM_JPG_SIZE=250
+export PNG_OPTIMIZATION_LEVEL=2
+export MAX_WIDTH=1400
+export NUM_PARALLEL_JOBS=8 # Number of parallel jobs for processing
 
 # Build the site with Hugo
 build_site() {
